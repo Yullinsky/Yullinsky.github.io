@@ -1,0 +1,68 @@
+body{
+    background-color: #212226;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    position: absolute;
+    top: 20px;
+    right: 32px;
+}
+
+nav a {
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.titulo {
+    width: 300px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0;
+    margin-top: 200px;
+    font-size: 80px;
+}   
+
+h2{
+    margin: -18px 0 0 73%;
+    font-size: 12px;
+    font-weight: 500;
+    color: #69F;
+}
+.barraDeBusqueda{
+    background-color: #333;
+    border: none;
+    border-radius: 25px;
+    height: 50px;
+    width: 550px;
+    margin-top: 20px;
+    color: white;
+    padding-left: 30px;
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+}
+.barraDeBusqueda:hover{
+    background-color: #393939;
+}
+
+.botonBusqueda{
+    background-color: #333;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    margin: 24px 4px;
+    padding: 8px;
+    cursor: pointer;
+}
+.botonBusqueda:hover{
+    box-shadow: 0 0 0 0.5px white;
+}
