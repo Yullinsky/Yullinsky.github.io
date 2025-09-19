@@ -7,11 +7,21 @@ body {
 
 .sectionPortfolio {
     max-width: 450px;
+    min-height: 320px;
     margin: 0 auto;
 }
 
-img .sectionImg {
-    width: 100px;
+.sectionImg img, .sectionCertificates img{
+    display:flex;
+    align-items: center;
+    margin: 15px auto;
+    max-width: 640px;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px 2px  #1114;
+}
+
+.sectionImg h2, .sectionCertificates h2, .sectionPortfolio h1, .sectionPortfolio h2{
+    margin-top: 80px;
 }
 
 li {
