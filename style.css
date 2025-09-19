@@ -1,0 +1,23 @@
+body {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+li {
+    text-align: left;
+}
+
+.project {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+
+}
+
+ion-icon{
+    margin-right: 5px;
+    vertical-align: center;
+}
