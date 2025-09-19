@@ -2,8 +2,16 @@ body {
     background-color: #222;
     color: white;
     text-align: center;
-    max-width: 400px;
     margin: 0 auto;
+}
+
+.sectionPortfolio {
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+img .sectionImg {
+    width: 100px;
 }
 
 li {
@@ -13,11 +21,20 @@ li {
 .project {
     text-decoration: none;
     font-size: 18px;
-    color: white;
-
+    color: #6BF;
+    display: flex ;
+    align-items: center;
+    font-weight: 500;
 }
 
-ion-icon{
-    margin-right: 5px;
-    vertical-align: center;
+ion-icon, b {
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 20px;
+    color: #FFF;
+    font-size: 22px;
+}
+
+nav {
+    background-color: #1B1B1B;
 }
