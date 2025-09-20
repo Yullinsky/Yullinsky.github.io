@@ -1,12 +1,17 @@
 body {
-    background-color: #222;
+    background-color: #202029;
     color: white;
     text-align: center;
     margin: 0 auto;
 }
 
-.sectionPortfolio {
-    max-width: 450px;
+nav {
+    background-color: #1A1A20;
+    padding: 6px;
+}
+
+.sectionPortfolio, .section {
+    max-width: 500px;
     min-height: 320px;
     margin: 0 auto;
 }
@@ -18,9 +23,17 @@ body {
     max-width: 640px;
     border-radius: 10px;
     box-shadow: 0 5px 5px 2px  #1114;
+    transition: 0.2s ease-in-out;
+}
+.sectionImg img:hover, .sectionCertificates img:hover{
+    max-width: 655px;
 }
 
-.sectionImg h2, .sectionCertificates h2, .sectionPortfolio h1, .sectionPortfolio h2{
+.sectionImg {
+    height: 700px;
+}
+
+.section,.sectionImg h2, .sectionCertificates h2, .sectionPortfolio h2, .sectionPortfolio h1{
     margin-top: 80px;
 }
 
@@ -45,6 +58,30 @@ ion-icon, b {
     font-size: 22px;
 }
 
-nav {
-    background-color: #1B1B1B;
+.skill {
+    background-color: #1A1A20;
+    color: #C35;
+    font-weight: 500;
+    display: inline;
+    padding: 6px 12px;
+    border-radius: 8px;
+}
+
+.sectionSkills p{
+    font-size: 24px;
+}
+
+footer {
+    padding: 20px 0 50px 0;
+    background-color: #1A1A20;
+}
+
+footer p{
+    margin: 0;
+    padding: 0;
+}
+
+footer a{
+    text-decoration: none;
+    color: #6BF
 }
