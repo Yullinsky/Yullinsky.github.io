@@ -58,7 +58,7 @@ ion-icon, b {
     font-size: 22px;
 }
 
-.skill {
+div.skill{
     background-color: #1A1A20;
     color: #C35;
     font-weight: 500;
